@@ -1,0 +1,50 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #b3b3b3;
+    font-size: 16px;
+}
+
+body{
+    padding-left: 2px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: black;
+}
+.about-cmd{
+    letter-spacing: 0.6px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+.input-container{
+    min-height: 75px;
+    width: 100vw;
+   
+    padding-left: 112px;
+}
+.cmd-form{
+    width: 100%;
+}
+.input-container::before{
+    position: absolute;
+    left: 0;
+    content: "C:\\web-cmd>";
+}
+.input-container::after{
+ 
+}
+.cmd-input{
+    width: 100%;
+    min-height: 100%;
+
+    position: relative;
+    background: none;
+    border: none;
+    outline: none;
+
+    
+}
+
